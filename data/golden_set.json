@@ -1,0 +1,44 @@
+[
+  {
+    "id": "key-rotation-001",
+    "question": "How do I rotate an API key safely?",
+    "expected_facts": [
+      "create a replacement key",
+      "update dependent services",
+      "verify the new key works",
+      "revoke the old key"
+    ],
+    "relevant_doc_ids": [
+      "api_key_management"
+    ],
+    "reference_answer": "Create a replacement key, update dependent services, verify it works, and then revoke the old key."
+  },
+  {
+    "id": "incident-001",
+    "question": "What should an incident response timeline contain?",
+    "expected_facts": [
+      "owner",
+      "severity",
+      "communication channel",
+      "timestamped timeline"
+    ],
+    "relevant_doc_ids": [
+      "incident_response"
+    ],
+    "reference_answer": "Record an owner, severity, communication channel, and timestamped timeline."
+  },
+  {
+    "id": "deploy-001",
+    "question": "What should I monitor during a deployment?",
+    "expected_facts": [
+      "error rate",
+      "request latency",
+      "saturation",
+      "rollback criteria"
+    ],
+    "relevant_doc_ids": [
+      "deployment_health"
+    ],
+    "reference_answer": "Monitor error rate, request latency, saturation, and business metrics, with rollback criteria defined before release."
+  }
+]

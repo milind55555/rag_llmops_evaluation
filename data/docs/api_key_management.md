@@ -1,0 +1,2 @@
+# API key management
+Store API keys in a secrets manager or protected environment variables, never in source code. Rotate a key immediately if exposure is suspected. Create a replacement key, update dependent services, verify the new key works, then revoke the old key. Use least-privilege scopes, audit key access, and establish a rotation schedule. Never paste real secrets into logs or issue trackers.

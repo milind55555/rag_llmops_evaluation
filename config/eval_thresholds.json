@@ -1,0 +1,6 @@
+{
+  "min_answer_relevance": 0.6,
+  "min_context_recall": 0.6,
+  "min_groundedness": 0.6,
+  "max_latency_ms": 5000
+}
